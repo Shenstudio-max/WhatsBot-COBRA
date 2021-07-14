@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🎌WhatsAlexa UserBot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* ```'+Config.NAMEA+'```\n\n*WhatsApp Group 1 :* ```'+Config.WHATS20+'```\n\n*WORKTYPE :* private\n\n```Thank You For Using WhatsAlexa 💞```"})
 
     }
     else {
@@ -56,7 +56,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🐺 Hey Bro!! I am still alive & kicking 😙```\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```TOXIC DEVIL```\n\n*WhatsApp Group 1 :* https://chat.whatsapp.com/Dt8hkeRksp29Cybh4AUSwm\n\n*WhatsApp Group 2 :* https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1\n\n```Thank You For Using WhatsAsenaPublic 🐺 💞```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🎌WhatsAlexa UserBot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n\n*Branch:* ```'+Config.BRANCH+'```\n\n*Developer:* ```'+Config.NAMEA+'```\n\n*WhatsApp Group 1 :* ```'+Config.WHATS20+'```\n\n*WORKTYPE :* public\n\n```Thank You For Using WhatsAlexa 💞```"})
 
     }
     else {
