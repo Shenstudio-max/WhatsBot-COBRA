@@ -28,7 +28,7 @@
 
 ### How To Set Up WhatsAsenaPublic
 
-**¤ To Set Up WhatsAsenaPublic Just [Click Here](https://github.com/sisula/WhatsAlexa#Simple-Method)**
+**¤ To Set Up WhatsAsenaPublic Just [Click Here](https://github.com/sisula/WhatsAlexa)**
 
 ```
 Asena; Asena UserBot are names representing WhatsAsena software, they can be used interchangeably in the rest of the article.
