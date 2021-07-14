@@ -23,7 +23,8 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```🎌Alexa User Bot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* --\n*Telegram Channel:* --\n*Plugin Channel:* ' + Config.CHANNEL , MessageType.text);
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+        await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🎌Alexa User Bot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* --\n*Telegram Channel:* --\n*Plugin Channel:* ' + Config.CHANNEL , MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAlexa*'
@@ -54,7 +55,8 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'``` 🎌Alexa User Bot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:*-- \n*Telegram Channel:*--\n*Plugin Channel:* ' + Config.CHANNEL, MessageType.text);
+            var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
+        await message.client.sendMessage(message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "``` 🎌Alexa User Bot!🎌```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:*-- \n*Telegram Channel:*--\n*Plugin Channel:* ' + Config.CHANNEL, MessageType.text);
         }
         else {
             const pow = '*Powered by WhatsAlexa*'
