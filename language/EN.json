@@ -28,6 +28,7 @@
             "WARN": "Get plugins only from t.me/remasterplugin channel."
         },
         "admin": {
+            "ADMIN_DESC": "```Admin මෙනුව සපයයි.",
             "BAN_DESC": "කණ්ඩායමේ කෙනෙකු ඉවත් කරන්න. පණිවිඩයට පිළිතුරු දෙන්න හෝ විධානය භාවිතා කිරීමට පුද්ගලයෙකු ටැග් කරන්න.",
             "IM_NOT_ADMIN": "*මම මෙම කණ්ඩායමේ admin නොවේ!*",
             "BANNED": "කණ්ඩායමෙන් පන්නා දැමුවා!",
