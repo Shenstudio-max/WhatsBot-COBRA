@@ -109,6 +109,11 @@
             "required": false,
             "value": "default"
         },
+        "ALIVE_LOGO": {
+            "description": "Customizable Alive Logo! Use => https://i.ibb.co/hdb4VFH/IMG-20210516-WA0008.jpg, to change back.",
+            "required": true,
+            "value": "https://i.hizliresim.com/lhyw9kg.jfif"
+        },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
