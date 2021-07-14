@@ -24,7 +24,7 @@ if (Config.LANG == 'ML') f_rep = '*ഫിൽട്ടർ സെറ്റ് ✅*
 if (Config.LANG == 'ID') f_rep = '*Filter Set ✅*'
 if (Config.LANG == 'PT') f_rep = '*Filtro Ajustado ✅*'
 
-Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC, dontAddCommandList: true}, (async (message, match) => {
     Mat = match[1].match(/[\'\"\“](.*?)[\'\"\“]/gsm);
 
     if (Mat === null) {
@@ -48,7 +48,7 @@ Asena.addCommand({pattern: 'filter ?(.*)', fromMe: true, desc: Lang.FILTER_DESC}
     }
 }));
 
-Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, dontAddCommandList: true}, (async (message, match) => {
     match = match[1].match(/[\'\"\“](.*?)[\'\"\“]/gsm);
     if (match === null) {
         return await message.client.sendMessage(message.jid,Lang.NEED_REPLY + '\n*Example:* ```.stop "hello"```',MessageType.text)
