@@ -315,7 +315,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
             chalk.green.bold('✅ පුරනය වීම සාර්ථකයි!')
         );
         console.log(
-            chalk.blueBright.italic('⬇️ බාහිර ප්ලගීන ස්ථාපනය කිරීම ...')
+            chalk.blueBright.italic('⬇️ බාහිර Plugin ස්ථාපනය කිරීම ...')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         // ==================== External Plugins ====================
@@ -333,7 +333,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic('⬇️  ප්ලගීන ස්ථාපනය කිරීම ...')
+            chalk.blueBright.italic('⬇️  Plugin ස්ථාපනය කිරීම ...')
         );
 
         // ==================== Internal Plugins ====================
@@ -345,7 +345,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         // ==================== End Internal Plugins ====================
 
         console.log(
-            chalk.green.bold('✅ ප්ලගීන ස්ථාපනය කර ඇත!')
+            chalk.green.bold('✅ Plugin ස්ථාපනය කර ඇත!')
         );
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
