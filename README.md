@@ -41,9 +41,7 @@ https://github.com/yusufusta/WhatsAsena
 # Baileys whatsapp api 
 https://github.com/adiwajshing/Baileys
 
-<p align='center'>
-  <a href="https://media.giphy.com/media/DRinNvjCXc5Iexx0CH/giphy.gif"width="50" /> </a>
-</p>
+<h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> ThankYou Using WhatsAlexa <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 
 
 
