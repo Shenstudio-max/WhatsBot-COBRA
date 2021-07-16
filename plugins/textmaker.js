@@ -36,7 +36,7 @@ if (Config.WORKTYPE == 'private') {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`https://api.xteam.xyz/photooxy/wolfmetal?text=${match[1]}&APIKEY=e54e1ba7d7df547a`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?text=${match[1]}&APIKEY=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAsenaPublic'})
 
