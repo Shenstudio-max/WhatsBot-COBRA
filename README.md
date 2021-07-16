@@ -36,9 +36,6 @@ $ node qr.js
 
 ## Developer & Contributors
 
-|----| ----|
-| [sisula](https://github.com/sisulaL) | 
-| Developer, Base, Bug Fixes, Modules | 
 
 ----------------------------
 # base bot
