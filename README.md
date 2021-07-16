@@ -36,6 +36,15 @@ $ node qr.js
 
 ## Developer & Contributors
 
+
+----------------------------
+# base bot
+https://github.com/yusufusta/WhatsAsena
+
+# Baileys whatsapp api 
+https://github.com/adiwajshing/Baileys
+
+
  
 
 
