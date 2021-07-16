@@ -35,7 +35,7 @@ $ node qr.js
 --------------------
 
 ## Developer & Contributors
-| [![TOXIC DEVIL](https://i.hizliresim.com/lhyw9kg.jfif?size=50)](https://github.com/sisula) | (https://github.com/M411U-80Y) |
+| <h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> | 
 |----| ----|
 | [sisula](https://github.com/sisulaL) | 
 | Developer, Base, Bug Fixes, Modules | 
