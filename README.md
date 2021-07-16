@@ -41,8 +41,6 @@ https://github.com/yusufusta/WhatsAsena
 # Baileys whatsapp api 
 https://github.com/adiwajshing/Baileys
 
-<h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> 🔥 Heys I'm Alexa - SISULA WELGAMAGE 🔥 <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-
 
 
 
