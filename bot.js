@@ -657,7 +657,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
 
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
                                 await conn.sendMessage(conn.user.jid, '*-- HATA RAPORU [WHATSALEXA] --*' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
+                                    '\n*WhatsAlexa bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._' +
@@ -791,7 +791,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
                             }
                             else {
                                 await conn.sendMessage(conn.user.jid, '*-- ERROR REPORT [WHATSALEXA] --*' + 
-                                    '\n*WhatsAsena an error has occurred!*'+
+                                    '\n*WhatsAlexa an error has occurred!*'+
                                     '\n_This error log may include your number or the number of an opponent. Please be careful with it!_' +
                                     '\n_You can write to our Telegram group for help._' +
                                     '\n_Aslo you can join our support group:_ https://chat.whatsapp.com/BPNzFEBUVbT1MnfNv3uTvL' +
