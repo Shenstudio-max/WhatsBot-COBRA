@@ -54,7 +54,7 @@ the user is responsible.
   <h1> WhatsAlexa </h1>
 </div>
 <p align = "center">
-    WhatsAlexa - Re Edit By sisula welgamage (special thanks @TOXIC-DEVIL).
+    WhatsAlexa - Re Edit By sisula welgamage .
     <br>
 
 ### Show Your Support
