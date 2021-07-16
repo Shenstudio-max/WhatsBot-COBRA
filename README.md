@@ -35,10 +35,10 @@ $ node qr.js
 --------------------
 
 ## Developer & Contributors
-| [![TOXIC DEVIL](https://avatars.githubusercontent.com/u/87115366?v=4?size=50)](https://github.com/sisula) | [![MALLU BOY](https://github.com/M411U-80Y.png?size=100)](https://github.com/M411U-80Y) |
+| [![TOXIC DEVIL](https://i.hizliresim.com/lhyw9kg.jfif?size=50)](https://github.com/sisula) | (https://github.com/M411U-80Y) |
 |----| ----|
-| [TOXIC-DEVIL](https://github.com/TOXIC-DEVIL) | [MALLU BOY](https://github.com/M411U-80Y) |
-| Developer, Base, Bug Fixes, Modules | Contributor, Bug Fixes, Modules |
+| [sisula](https://github.com/sisulaL) | 
+| Developer, Base, Bug Fixes, Modules | 
 
 ----------------------------
 # base bot
