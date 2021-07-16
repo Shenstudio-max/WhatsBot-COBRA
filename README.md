@@ -35,7 +35,10 @@ $ node qr.js
 --------------------
 
 ## Developer & Contributors
-
+| [![TOXIC DEVIL](https://github.com/TOXIC-DEVIL.png?size=100)](https://github.com/TOXIC-DEVIL) | [![MALLU BOY](https://github.com/M411U-80Y.png?size=100)](https://github.com/M411U-80Y) |
+|----| ----|
+| [TOXIC-DEVIL](https://github.com/TOXIC-DEVIL) | [MALLU BOY](https://github.com/M411U-80Y) |
+| Developer, Base, Bug Fixes, Modules | Contributor, Bug Fixes, Modules |
 
 ----------------------------
 # base bot
