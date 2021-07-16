@@ -42,7 +42,7 @@ https://github.com/yusufusta/WhatsAsena
 https://github.com/adiwajshing/Baileys
 
 <p align='center'>
-  <a href="https://media.giphy.com/media/DRinNvjCXc5Iexx0CH/giphy.gif"width="500" /> </a>
+  <a href="https://media.giphy.com/media/DRinNvjCXc5Iexx0CH/giphy.gif"width="50" /> </a>
 </p>
 
 
