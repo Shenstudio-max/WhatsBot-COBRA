@@ -42,6 +42,9 @@ https://github.com/yusufusta/WhatsAsena
 https://github.com/adiwajshing/Baileys
 
 
+<iframe src="https://giphy.com/embed/DRinNvjCXc5Iexx0CH" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/socialbakers-social-media-whatsapp-logo-DRinNvjCXc5Iexx0CH">via GIPHY</a></p>
+
+
  
 
 
