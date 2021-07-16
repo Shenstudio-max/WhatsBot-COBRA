@@ -65,7 +65,7 @@ the user is responsible.
 
 <div align = "center">
   <img src = "https://textpro.me/images/user_image/2021/07/60ed84a7446b3.jpg" width = "200" height = "200">
-  <h1> 🐺 WhatsAlexa </h1>
+  <h1> WhatsAlexa </h1>
 </div>
 <p align = "center">
     WhatsAlexa - Re Edit By sisula welgamage (special thanks @TOXIC-DEVIL).
