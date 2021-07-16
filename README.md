@@ -35,7 +35,7 @@ $ node qr.js
 --------------------
 
 ## Developer & Contributors
-| <h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> | 
+
 |----| ----|
 | [sisula](https://github.com/sisulaL) | 
 | Developer, Base, Bug Fixes, Modules | 
