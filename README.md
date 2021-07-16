@@ -26,15 +26,12 @@ $ node qr.js
 
 ##
 
-## Important
-
--------------
 
 
 
 --------------------
 
-## Developer & Contributors
+## Developer & Contributors - sisula
 
 
 ----------------------------
