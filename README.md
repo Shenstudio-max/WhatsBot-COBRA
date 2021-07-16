@@ -1,22 +1,12 @@
 ### Jump To
 
-**■ To Know What is WhatsAsenaPublic, Just [Click Here](https://github.com/sisula/WhatsAlexa#What-Is-WhatsAsenaPublic)**
-
-**■ To Know Features of WhatsAsenaPublic, Just [Click Here](https://github.com/sisula/WhatsAlexa#Features)**
-
-
-
-**■ To Set Up WhatsAsenaPublic, Just [Click Here](https://github.com/sisula/WhatsAlexa#How-To-Set-Up-WhatsAsenaPublic)**
-
 ### Special Thanks To:
 
 **[@Phaticusthiccy](https://github.com/Phaticusthiccy)**
 
-**[@TOXIC-DEVIL](https://github.com/sisula/WhatsAsenaPublic)**
 
 ### What Is WhatsAlexa
 
-**▪︎ The [Public Version](https://github.com/sisula/WhatsAlexa) Of [WhatsAsenaDuplicated](https://github.com/Phaticusthiccy/WhatsAsenaDuplicated) [ First Release which Deployed On Heroku ] 🐺**
 
 **▪︎ You Have the All Rights To Re-Edit This Ropo**
 
@@ -25,10 +15,6 @@
 **▪︎ Added More Commands**
 
 **▪︎ Helper & Developer [Phaticusthiccy](https://github.com/Phaticusthiccy)**
-
-### How To Set Up WhatsAsenaPublic
-
-**¤ To Set Up WhatsAsenaPublic Just [Click Here](https://github.com/sisula/WhatsAlexa)**
 
 ```
 Asena; Asena UserBot are names representing WhatsAsena software, they can be used interchangeably in the rest of the article.
@@ -86,8 +72,8 @@ the user is responsible.
 
 ### The Hard Method
 ``` js
-$ git clone https://github.com/sisula/WhatsAlexa.git
-$ cd WhatsAsenaPublic
+$ git clone https://github.com/sisula/alexa.git
+$ cd alexa
 $ npm i @adiwajshing/baileys
 $ npm i chalk
 $ node qr.js
