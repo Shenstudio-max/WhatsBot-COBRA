@@ -1,17 +1,13 @@
-<h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> 🔥 Heys I'm Alexa - SISULA WELGAMAGE 🔥 <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
-
-
-
-
+<h1 align="center">
+    <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> 
+                          🔥 Heys I'm Alexa - SISULA WELGAMAGE 🔥 
+    <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 <p align="center"><img src="https://i.hizliresim.com/lhyw9kg.jfif" width="400"></a></p>
-
-
 ---
  ___
  ### installation Simple Method
 
 [![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAsenaPublic)](https://replit.com/@SisulaRansika/ALEXA?v=1)
-
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sisula/alexa)
 
