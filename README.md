@@ -42,23 +42,3 @@ https://github.com/adiwajshing/Baileys
 <h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> ThankYou Using WhatsAlexa <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
----
- ___
