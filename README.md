@@ -27,12 +27,12 @@ $ node qr.js
 
 
 
---------------------
+-------------------------------------------------------------------------
 
 ## Developer & Contributors - sisula
 
 
-----------------------------
+------------------------------------------------------------------------
 # base bot
 https://github.com/yusufusta/WhatsAsena
 
@@ -54,8 +54,6 @@ https://github.com/adiwajshing/Baileys
 
 
 
-<!-- programming langs i work-->
-<p align="center">
 
 
  
