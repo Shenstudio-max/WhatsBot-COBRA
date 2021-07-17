@@ -5,8 +5,8 @@
 <p align="center"><img src="https://i.hizliresim.com/lhyw9kg.jfif" width="400"></a></p>
 
 
----
- ___
+-------------------------------------------------------------------------------------------------
+ ________________________________________________________________________________________________
  ### installation Simple Method
 
 [![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAsenaPublic)](https://replit.com/@SisulaRansika/ALEXA?v=1)
