@@ -549,17 +549,15 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         if (msg.messageStubType === 32 || msg.messageStubType === 28) {
             // see you message
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
-            var image = await axios.get (Config.BYE_LOGO, {responseType: 'arraybuffer'})
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, Config.BYE_LOGO, MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/WhatsAsenaPublic/media/gif/GoodBye - 2084.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // Welcome message
             var gb = await getMessage(msg.key.remoteJid);
-            var image = await axios.get (Config.WELCOME_LOGO, {responseType: 'arraybuffer'})
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, Config.WELCOME_LOGO , MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/WhatsAsenaPublic/media/gif/Welcome - 4092.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         }
