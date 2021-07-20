@@ -28,6 +28,8 @@ module.exports = {
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://i.hizliresim.com/lhyw9kg.jfif' : process.env.ALIVE_LOGO,
+    WELCOME_LOGO: process.env.WELCOME_LOGO === undefined ? 'https://tinyurl.com/queenamdi-welcome' : process.env.WELCOME_LOGO,
+    BYE_LOGO: process.env.BYE_LOGO === undefined ? 'https://tinyurl.com/queenamdi-goodbye' : process.env.BYE_LOGO,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
