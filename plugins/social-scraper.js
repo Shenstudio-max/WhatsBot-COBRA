@@ -12,6 +12,9 @@ const Language = require('../language')
 const { errorMessage, infoMessage } = require('../helpers')
 const Lang = Language.getString('instagram')
 const Tlang = Language.getString('tiktok')
+const FBDESC = "Download Facebook videos"
+const NEED_WORD = "Need to enter a link."
+const DWLOAD_VID = "Downloading facebook video"
 
 if (cn.WORKTYPE == 'private') {
 
@@ -39,6 +42,33 @@ if (cn.WORKTYPE == 'private') {
         });
 
     }));
+
+/*
+Copyright (C) 2021 Queen Amdi.
+
+Licensed under the  GPL-3.0 License;
+*/
+	
+	Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: true, desc: FBDESC}, (async (message, match) => {
+
+		const fblink = match[1]
+
+		if (!fblink) return await message.client.sendMessage(message.jid,NEED_WORD, MessageType.text);
+
+		await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
+
+		await axios
+		  .get(`https://lolhuman.herokuapp.com/api/facebook2?apikey=genbotkey&url=${fblink}`)
+		  .then(async (response) => {
+		    const {
+		      result,
+		    } = response.data
+
+		    const profileBuffer = await axios.get(result, {responseType: 'arraybuffer'})
+
+	      await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {caption: "WhatsAlexa 2021"})}
+		  )
+    })); // FB Downloader added a76bYKT5652xyaKJ
 
     /*
     Asena.addCommand({ pattern: 'tiktok ?(.*)', fromMe: true, desc: Tlang.TİKTOK }, async (message, match) => {
