@@ -12,17 +12,17 @@ const Language = require('../language');
 const Lang = Language.getString('ttp');
 
 if (Config.WORKTYPE == 'private') {
-   Asena.addCommand({pattern: 'wetglass ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'naruto ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto1/wetglass?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/naruto?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-   Asena.addCommand({pattern: 'codw ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'zwolf ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
@@ -33,37 +33,37 @@ if (Config.WORKTYPE == 'private') {
         topText = split[0];
 }
 
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto2/codwarzone?apikey=a776a857c5afc5855e0eb023&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-   Asena.addCommand({pattern: 'freefire ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'breakwall ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto1/freefire?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-      Asena.addCommand({pattern: 'hacker ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      Asena.addCommand({pattern: 'dropwater ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto1/anonymhacker?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-   Asena.addCommand({pattern: 'bokeh ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'flower ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/textprome/bokeh?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/flowertext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
@@ -73,47 +73,47 @@ if (Config.WORKTYPE == 'private') {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/photooxy1/shadow?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/skytext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-      Asena.addCommand({pattern: 'burnp ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      Asena.addCommand({pattern: 'flame ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/photooxy1/burnpaper?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/flametext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-   Asena.addCommand({pattern: 'love ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'zglow ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/photooxy1/love?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/glowtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-      Asena.addCommand({pattern: 'lovew ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+      Asena.addCommand({pattern: 'clight ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/photooxy1/woodheart?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/lithgtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
     }));
    
-   Asena.addCommand({pattern: 'dotavatar ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+   Asena.addCommand({pattern: 'wfire ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
   
-    var webimage = await axios.get(`http://lolhuman.herokuapp.com/api/ephoto1/avatardota?apikey=a776a857c5afc5855e0eb023&text=${match[1]}`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://api.zeks.xyz/api/tfire?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
 
