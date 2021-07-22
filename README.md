@@ -34,7 +34,7 @@ $ node qr.js
 -------------------------------------------------------------------------
 
 ## Developer & Contributors - sisula
-## SPECIAL THANKS BLACKAMDA
+<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="29px">; ## SPECIAL THANKS BLACKAMDA
 
 
 ------------------------------------------------------------------------
