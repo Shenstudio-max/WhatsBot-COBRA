@@ -305,12 +305,12 @@ if (conf.LANG == 'ES') {
     succ_on = '¡Eva abrió completamente funcionalmente! ¡Por favor espere un poco! ✅'
     succ_off = '¡Eva se pone semifuncional! ¡Por favor espere un poco! ☑️'
 }
-if (conf.LANG == 'HI') {
-    fulleva_dsc = 'पूरी तरह कार्यात्मक Eva सुविधाओं को सक्रिय करता है। अपने खाते को चैटबॉट में बदलें!'
-    already_on = 'ईवा आर्टिफिशियल इंटेलिजेंस पहले से ही पूरी तरह कार्यात्मक है'
-    already_off = 'ईवा एआई वर्तमान में अर्ध-कार्यात्मक है'
-    succ_on = 'ईवा पूरी तरह कार्यात्मक रूप से खुल गई! कृपया थोड़ी प्रतीक्षा करें! ✅'
-    succ_off = 'अर्ध-कार्यात्मक करने के लिए ईवा सेट! कृपया थोड़ी प्रतीक्षा करें! ☑️'
+if (conf.LANG == 'EN') {
+    fulleva_dsc = 'Activates full functional Eva features. Turn your account into a ai chatbot!'
+    already_on = 'Eva artificial intelligence is already fully functional.'
+    already_off = 'Eva artificial intelligence is currently running semi-functional.'
+    succ_on = 'Eva Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Eva Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Eva സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
