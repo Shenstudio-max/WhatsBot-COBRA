@@ -24,7 +24,7 @@ if (Config.LANG == 'PT') LANG.RES == '*Comando não encontrado!*\n*Comando Simil
 if (Config.LANG == 'RU') LANG.RES == '*Команда не найдена!*\n*Аналогичная команда:*'
 if (Config.LANG == 'ID') LANG.RES == '*Perintah tidak ditemukan!*\n*Perintah serupa:*'
 if (Config.LANG == 'ES') LANG.RES == '*¡Comando no encontrado!*\n*Comando similar:*'
-if (Config.LANG == 'ML') LANG.RES == '*കമാൻഡ് കണ്ടില്ല!*\n*സമാന കമാൻഡ്:*'
+if (Config.LANG == 'ML') LANG.RES == '*විධානය හමු නොවීය! *\n* සමාන විධානය:*'
 if (Config.LANG == 'HI') LANG.RES == '*यह कमांड नहीं मिला!*\n*समान कमांड:*'
 
 function editDistance(comm, wr) {
