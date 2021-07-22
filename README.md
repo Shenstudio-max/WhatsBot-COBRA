@@ -10,8 +10,7 @@
 
 -------------------------------------------------------------------------------------------------
  ________________________________________________________________________________________________
- <h1 align="left">
- <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif" width="20">   installation Simple Method
+## installation Simple Method
    
 
 [![Run on Repl.it](https://repl.it/badge/github/TOXIC-DEVIL/WhatsAsenaPublic)](https://replit.com/@SisulaRansika/ALEXA?v=1)
