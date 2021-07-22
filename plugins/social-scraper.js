@@ -14,7 +14,7 @@ const Lang = Language.getString('instagram')
 const Tlang = Language.getString('tiktok')
 const FBDESC = "Download Facebook videos"
 const NEED_WORD = "Need to enter a link."
-const DWLOAD_VID = "Downloading facebook video"
+const DWLOAD_VID = "*♣️ Downloading facebook video*"
 
 if (cn.WORKTYPE == 'private') {
 
