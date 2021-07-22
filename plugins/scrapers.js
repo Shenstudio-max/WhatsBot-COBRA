@@ -91,12 +91,12 @@ if (config.LANG == 'ML') {
     dlang_input = 'പ്രോസസ്സ് ചെയ്ത വാചകം:'
 }
 if (config.LANG == 'HI') {
-    dlang_dsc = 'उत्तर दिए गए संदेश की भाषा का अनुमान लगाएं'
-    closer_res = 'निकटतम परिणाम:'
-    dlang_lang = 'जुबान:'
-    dlang_similarity = 'समानता:'
-    dlang_other = 'अन्य भाषाएँ'
-    dlang_input = 'संसाधित पाठ:'
+    dlang_dsc = 'Guess the language of the replied message.'
+    closer_res = 'Closest Result:'
+    dlang_lang = 'Language:'
+    dlang_similarity = 'Similarity:'
+    dlang_other = 'Other Languages'
+    dlang_input = 'Processed Text:'
 }
 if (config.LANG == 'ES') {
     dlang_dsc = 'Adivina el idioma del mensaje respondido.'
@@ -176,11 +176,11 @@ if (config.WORKTYPE == 'private') {
         succ_off = 'Antilink Uğurla Bağlandı!'
     }
     if (config.LANG == 'HI') {
-        l_dsc = 'एंटीलिंक टूल को सक्रिय करता है।'
-        alr_on = 'एंटीलिंक पहले से ही खुला है!'
-        alr_off = 'एंटीलिंक वर्तमान में बंद है!'
-        succ_on = 'एंटीलिंक सफलतापूर्वक खोला गया!'
-        succ_off = 'एंटीलिंक सफलतापूर्वक बंद!'
+        l_dsc = 'Activates the Antilink tool.'
+        alr_on = 'Antilink is already open!'
+        alr_off = 'Antilink is currently closed!'
+        succ_on = 'Antilink Opened Successfully!'
+        succ_off = 'Antilink Closed Successfully!'
     }
     if (config.LANG == 'ML') {
         l_dsc = 'ആന്റിലിങ്ക് ഉപകരണം സജീവമാക്കുന്നു.'
@@ -273,11 +273,11 @@ if (config.WORKTYPE == 'private') {
         succ_off_bio = 'Autobio Uğurla Bağlandı!'
     }
     if (config.LANG == 'HI') {
-        auto_dsc = 'अपने बायो में लाइव घड़ी जोड़ें!'
-        alr_on_bio = 'Autobio पहले से ही खुला है!'
-        alr_off_bio = 'Autobio वर्तमान में बंद है!'
-        succ_on_bio = 'Autobio सफलतापूर्वक खोला गया!'
-        succ_off_bio = 'Autobio सफलतापूर्वक बंद!'
+        auto_dsc = 'Add live clock to your bio!'
+        alr_on_bio = 'Autobio is already open!'
+        alr_off_bio = 'Autobio is currently closed!'
+        succ_on_bio = 'Autobio Opened Successfully!'
+        succ_off_bio = 'Autobio Closed Successfully!'
     }
     if (config.LANG == 'ML') {
         auto_dsc = 'നിങ്ങളുടെ ബയോയിലേക്ക് തത്സമയ ക്ലോക്ക് ചേർക്കുക!'
