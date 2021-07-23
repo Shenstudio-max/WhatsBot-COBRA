@@ -63,7 +63,7 @@ if (Config.WORKTYPE == 'private') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *RAWANA BOT Private By SISULA WELGAMAGE* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'👑 *𝗥𝗔𝗪𝗔𝗡𝗔 𝗕𝗢𝗧 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗕𝘆 𝗦𝗜𝗦𝗨𝗟𝗔 𝗪𝗘𝗟𝗚𝗔𝗠𝗔𝗚𝗘* 👑\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -116,7 +116,7 @@ if (Config.WORKTYPE == 'private') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *RAWANA BOT Private By SISULA WELGAMAGE* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'👑 *𝗥𝗔𝗪𝗔𝗡𝗔 𝗕𝗢𝗧 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗕𝘆 𝗦𝗜𝗦𝗨𝗟𝗔 𝗪𝗘𝗟𝗚𝗔𝗠𝗔𝗚𝗘* 👑\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
@@ -171,7 +171,7 @@ else if (Config.WORKTYPE == 'public') {
                 }
             );
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *RAWANA BOT Public By SISULA WELGAMAGE* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'👑 *𝗥𝗔𝗪𝗔𝗡𝗔 𝗕𝗢𝗧 𝗣𝘂𝗯𝗹𝗶𝗰 𝗕𝘆 𝗦𝗜𝗦𝗨𝗟𝗔 𝗪𝗘𝗟𝗚𝗔𝗠𝗔𝗚𝗘* 👑\n\n' + CMD_HELP, MessageType.text
             );    
         } else {
             var CMD_HELP = '';
@@ -224,7 +224,7 @@ else if (Config.WORKTYPE == 'public') {
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'●▬▬▬ *RAWANA BOT Public By SISULA WELGAMAGE* ▬▬▬●\n\n' + CMD_HELP, MessageType.text
+                message.jid,'👑 *𝗥𝗔𝗪𝗔𝗡𝗔 𝗕𝗢𝗧 𝗣𝘂𝗯𝗹𝗶𝗰 𝗕𝘆 𝗦𝗜𝗦𝗨𝗟𝗔 𝗪𝗘𝗟𝗚𝗔𝗠𝗔𝗚𝗘* 👑\n\n' + CMD_HELP, MessageType.text
             );
         }
     }));
