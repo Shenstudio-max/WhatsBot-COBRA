@@ -18,9 +18,9 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා En ලෙස සඳහන් කරන්න.",
+            "description": "Bot භාෂාව.සිංහල භාෂාව සඳහා HI ලෙස සඳහන් කරන්න.",
             "required": true,
-            "value": "EN"
+            "value": "HI"
         },
         "ANTİ_LİNK": {
             "description": ". Link Blocking System.",
