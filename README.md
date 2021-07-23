@@ -1,6 +1,6 @@
 <h1 align="center">
    <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> 
-                          🔥 Heys I'm RAWANA WHATSAPP USER BOT - SISULA WELGAMAGE 🔥 
+                          🔥 Heys I'm RAWANA WHATSAPP USER BOT 🔥 
     <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 <p align="center"><img src="https://i.hizliresim.com/kimx83v.jpg" width="400"></a></p>
 
@@ -33,7 +33,7 @@ $ node qr.js
 
 -------------------------------------------------------------------------
 
-## Developer & Contributors - sisula
+## Developer & Contributors - SISULA WELGAMAGE
 ## SPECIAL THANKS BLACKAMDA&nbsp;<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Handshake.gif" width="75">
  
 
