@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "sinhala",
     "LANGCODE": "hi",
-    "AUTHOR": "Avi Patil / Phaticusthiccy",
+    "AUTHOR": "sisula",
     "STRINGS": {
         "_asena": {
             "COMMAND": "විධානය",
@@ -75,11 +75,11 @@
             "MUST_TEXT": "```කරුණාකර ඕනෑම පණිවිඩයකට tag දෙන්න```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAlexa",
-            "RESTART_MSG": "```Restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAlexa",
-            "SHUTDOWN_MSG": "```Shutting down ⛔```",
-            "DYNO_DESC": "Check heroku dyno usage",
+            "RESTART_DESC": "WhatsAlexa නැවත ආරම්භ කරන්න",
+            "RESTART_MSG": "```නැවත ආරම්භ කරමින්...```",
+            "SHUTDOWN_DESC": "WhatsAlexa වසා දමයි",
+            "SHUTDOWN_MSG": "```වසා දැමුව ⛔```",
+            "DYNO_DESC": "හෙරොකු ඩයිනෝ භාවිතය පරීක්ෂා කරන්න",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
             "PERCENTAGE": "```Percentage```",
@@ -376,42 +376,42 @@
             "UV_PROC": "```Converting to Sound Recording..```"
         },
         "ffmpeg": {
-            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
+            "FF_DESC": "වීඩියෝවට අපේක්ෂිත ffmpeg පෙරණය යොදයි.\n⌨️ Example: .ffmpeg fade=in:0:30",
             "FF_PROC": "Applying Effect.."
         },
         "spammer": {
-            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
+            "SPAM_DESC": "ඔබ එය නවත්වන තුරු එය අයාචිත තැපැල් කරයි.\n⌨️ Example: .spam test",
             "NEED_WORD": "*Need Some Words!*",
-            "STOP_SPAMDESC": "Stops spam command.",
+            "STOP_SPAMDESC": "අයාචිත තැපැල් විධානය නතර කරයි.",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
-            "ST_DESC": "Convert the replied photo or video to sticker and send it as spam.",
+            "ST_DESC": "පිළිතුරු දුන් ඡායාරූපය හෝ වීඩියෝව ස්ටිකර් බවට පරිවර්තනය කර එය අයාචිත තැපැල් ලෙස යවන්න.",
             "ST_ST": "```Please Don't Reply to Stciker!```\n```Only Reply to Video or Photo!```",
             "ST_NEED": "```You Must Reply To Any Video Or Photo!```",
-            "AU_DESC": "Sends the replied audio as spam.",
+            "AU_DESC": "පිළිතුරු දුන් ශ්රව්ය උපකරණ අයාචිත තැපැල් ලෙස යවයි.",
             "AU_REP": "```Please Only Reply To Audio File!```",
-            "FOTO_DESC": "Sends the replied photo as spam.",
+            "FOTO_DESC": "පිළිතුරු දුන් ඡායාරූපය අයාචිත තැපැල් ලෙස යවයි.",
             "FOTO_FOT": "```Please Reply To Any Picture!```",
-            "VİD_DESC": "Sends the replied video as spam.",
+            "VİD_DESC": "පිළිතුරු දුන් වීඩියෝව අයාචිත තැපැල් ලෙස යවයි.",
             "VİD_NEED": "```Please Reply to Any Video!```"
         },
         "carbon": {
-            "CARBON_DESC": "Uses carbon.sh for Text-to-Image",
+            "CARBON_DESC": "text to image සඳහා carbon.sh භාවිතා කරයි",
             "CARBON_NEEDWORD": "*Not enough arguments to translate Text-to-Image!*\nExample: ```.carbon test```\nExample: ```.carbon making#test```",
             "CARBON_WARN": "Please only type in en and tr character!"
         },
         "scam": {
-            "SCAM_DESC": "Creates 5 minutes of fake actions.",
+            "SCAM_DESC": "මිනිත්තු 5 ක ව්‍යාජ ක්‍රියා නිර්මාණය කරයි.",
             "SCAM_NOTFOUND": "*You Must Enter Fake Action!*\nExisting Types: ```typing & recording & online & stop```",
             "SCAM_NULL": "```Wrong Action Entered! Please use existing types.```"
         },
         "deepai": {
-            "DEEPAI_DESC": "Runs the most powerful artificial intelligence tools using artificial neural networks.",
+            "DEEPAI_DESC": "කෘතිම ස්නායුක ජාල භාවිතා කරමින් වඩාත් ප්‍රබල කෘතිම බුද්ධි මෙවලම් ධාවනය කරයි.",
             "TEXT": "*You must enter text! Although I am a powerful artificial intelligence, I cannot read your thoughts!*",
             "URL": "*You must enter the image URL!*\n*Example:* https://i.hizliresim.com/nrg50b.jpg"
         },
         "ttp": {
-            "TTP_DESC": "Converts text to plain painting.",
-            "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
+            "TTP_DESC": "පෙළ සරල සිතුවම් බවට පරිවර්තනය කරයි.",
+            "ATTP_DESC": "දේදුන්න ආචරණය පෙළට ස්ටිකරයක් ලෙස එක් කරයි.",
             "NEED_WORD": "*You must enter words!*",
             "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
@@ -422,7 +422,7 @@
             "WP": "It sends high resolution wallpapers."
         },
         "webss": {
-            "SS_DESC": "Takes a screenshot from the page in the given link.",
+            "SS_DESC": "දී ඇති සබැඳියේ පිටුවෙන් තිර රුවක් ගනී.",
             "LİNK": "You must enter link!"
         },
         "voicy": {
@@ -445,7 +445,7 @@
         "instagram": {
             "NEED_WORD": "*Enter Any Instagram Post Link!*",
             "USAGE": ".insta <userName>",
-            "DESC": "Downloads videos or photos from Instagram.",
+            "DESC": "Instagram වෙතින් වීඩියෝ හෝ ඡායාරූප බාගත කරයි.",
             "LOADING": "Fetching user data.. please wait.",
             "USERNAME": "Username",
             "NAME": "Name",
@@ -459,7 +459,7 @@
             "NOT_FOUND": "*Media Not Found!*"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github phaticusthiccy",
+            "GİTHUB_DESC": "දී ඇති පරිශීලක නාමයෙන් github තොරතුරු රැස් කරයි.\n⌨️ Example: .github sisula",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
@@ -481,7 +481,7 @@
             "UPDATE": "Last Update:"
         },
         "tiktok": {
-            "TİKTOK": "Downloads videos from Tiktok.",
+            "TİKTOK": "tiktok වෙතින් වීඩියෝ බාගත කරයි.",
             "NEED": "```You Must Enter Any Tiktok Link!``` \n*Example:* ```.tiktok https://vm.tiktok.com/ZSJY27ExT/```",
             "DOWN": "```Downloading Media..```",
             "CAPTİON": "Title:",
@@ -496,7 +496,7 @@
             "M_AUT": "Music Author:"
         },
         "lyrics": {
-            "LY_DESC": "Finds the lyrics of the song.",
+            "LY_DESC": "ගීතයේ පද රචනය සොයා ගනී.",
             "NEED": "```You Must Write Any Song!```",
             "SLY": "Lyrics:",
             "AUT": "Song Owner:",
