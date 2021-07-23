@@ -75,9 +75,9 @@
             "MUST_TEXT": "```කරුණාකර ඕනෑම පණිවිඩයකට tag දෙන්න```"
         },
         "heroku": {
-            "RESTART_DESC": "WhatsAlexa නැවත ආරම්භ කරන්න",
+            "RESTART_DESC": "RAWANA නැවත ආරම්භ කරන්න",
             "RESTART_MSG": "```නැවත ආරම්භ කරමින්...```",
-            "SHUTDOWN_DESC": "WhatsAlexa වසා දමයි",
+            "SHUTDOWN_DESC": "RAWANA වසා දමයි",
             "SHUTDOWN_MSG": "```වසා දැමුව ⛔```",
             "DYNO_DESC": "හෙරොකු ඩයිනෝ භාවිතය පරීක්ෂා කරන්න",
             "DYNO_TOTAL": "```Total Quota```",
@@ -231,7 +231,7 @@
             "INVALID_HEROKU": "*❌ ඔබේ හෙරොකු තොරතුරු වැරදිය!*",
             "UPDATED": "*✅ සාර්ථකව යාවත්කාලීන කරන ලදි!*",
             "UPDATED_LOCAL": "*✅ සාර්ථකව යාවත්කාලීන කරන ලදි!*",
-            "AFTER_UPDATE": "*💬 WhatsAlexa නැවත ආරම්භ කරමින්!*",
+            "AFTER_UPDATE": "*💬 RAWANA නැවත ආරම්භ කරමින්!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
