@@ -6,9 +6,7 @@ Instagram: www.instagram.com/kyrie.baran
 const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
-const {execFile} = require('child_process');
 const Config = require('../config');
-const exec = require('child_process').exec;
 const Language = require('../language');
 const Lang = Language.getString('conventer');
 
