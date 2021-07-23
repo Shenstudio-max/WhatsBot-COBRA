@@ -1,6 +1,6 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "Hindi",
+    "LANGUAGE": "sinhala",
     "LANGCODE": "hi",
     "AUTHOR": "Avi Patil / Phaticusthiccy",
     "STRINGS": {
@@ -223,15 +223,15 @@
             "REPLY": "*Please Respond to User's Message to Report!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Updating..._",
-            "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 WhatsAlexa Restarting Automatically!*",
+            "UPDATER_DESC": "යාවත්කාලීන කිරීම් පරීක්ෂා කරයි.",
+            "UPDATE": "*ඔබේ bot සම්පූර්ණයෙන්ම යාවත්කාලීනයි!*",
+            "NEW_UPDATE": "*bot සඳහා නව යාවත්කාලීන කිරීම් තිබේ!*\n\nවෙනස්කම්:\n```",
+            "UPDATE_NOW_DESC": "එය යාවත්කාලීන කරයි.",
+            "UPDATING": "_යාවත්කාලීන කරමින්..._",
+            "INVALID_HEROKU": "*❌ ඔබේ හෙරොකු තොරතුරු වැරදිය!*",
+            "UPDATED": "*✅ සාර්ථකව යාවත්කාලීන කරන ලදි!*",
+            "UPDATED_LOCAL": "*✅ සාර්ථකව යාවත්කාලීන කරන ලදි!*",
+            "AFTER_UPDATE": "*💬 WhatsAlexa නැවත ආරම්භ කරමින්!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
