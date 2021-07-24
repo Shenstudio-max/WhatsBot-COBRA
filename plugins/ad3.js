@@ -8,8 +8,6 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const axios = require('axios');
 
-const Language = require('../language');
-const Lang = Language.getString('ttp');
 
 if (Config.WORKTYPE == 'private') {
    Asena.addCommand({pattern: 'naruto ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
