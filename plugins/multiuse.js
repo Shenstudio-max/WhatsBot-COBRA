@@ -32,50 +32,17 @@ Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC}, async 
         const msg = `${type}`
 
 	 if (msg === 'image') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.image, {
-          caption: "Made By WhatsAlexa"
+          caption: "*Made By RAWANA*"
         })}
 		 	 
 	if (msg === 'video') { await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By WhatsAlexa"
+          caption: "*Made By RAWANA*"
         })}
 	
         
       })
       .catch(
         async (err) => await message.sendMessage(errorMessage("Invaild Link, Please Enter a Vaild Instagram Link")),
-      )
-  },
-)
-
-
-
-
-Asena.addCommand({ pattern: 'wfb ?(.*)', fromMe: false, desc: FBDESC }, async (message, match) => {
-
-    const userName = match[1]
-
-    if (!userName) return await message.sendMessage(errorMessage(NEED_WORD))
-
-    await message.sendMessage(infoMessage(LOADING))
-
-    await axios
-      .get(`https://videfikri.com/api/fbdl/?urlfb=${userName}`)
-      .then(async (response) => {
-        const {
-          url,
-          judul,
-        } = response.data.result
-
-        const profileBuffer = await axios.get(url, {responseType: 'arraybuffer'})
-
-        const msg = `*${CAPTION}*: ${judul}`
-
-        await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {
-          caption: "Made By WhatsAlexa"
-        })
-      })
-      .catch(
-        async (err) => await message.sendMessage(errorMessage(NOT_FOUNDFB )),
       )
   },
 )
