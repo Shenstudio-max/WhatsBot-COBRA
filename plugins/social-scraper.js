@@ -58,7 +58,7 @@ Licensed under the  GPL-3.0 License;
 		await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
 
 		await axios
-		  .get(`https://lolhuman.herokuapp.com/api/facebook2?apikey=genbotkey&url=${fblink}`)
+		  .get(`http://lolhuman.herokuapp.com/api/facebook2?apikey=a776a857c5afc5855e0eb023&url=${fblink}`)
 		  .then(async (response) => {
 		    const {
 		      result,
@@ -134,7 +134,7 @@ else if (cn.WORKTYPE == 'public') {
     Licensed under the  GPL-3.0 License;
     */
 	
-	Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: true, desc: FBDESC}, (async (message, match) => {
+	Asena.addCommand({ pattern: 'fb ?(.*)', fromMe: false, desc: FBDESC}, (async (message, match) => {
 
 		const fblink = match[1]
 
@@ -143,7 +143,7 @@ else if (cn.WORKTYPE == 'public') {
 		await message.client.sendMessage(message.jid,DWLOAD_VID,MessageType.text);
 
 		await axios
-		  .get(`https://lolhuman.herokuapp.com/api/facebook2?apikey=genbotkey&url=${fblink}`)
+		  .get(`http://lolhuman.herokuapp.com/api/facebook2?apikey=a776a857c5afc5855e0eb023&url=${fblink}`)
 		  .then(async (response) => {
 		    const {
 		      result,
