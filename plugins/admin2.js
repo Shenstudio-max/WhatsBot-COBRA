@@ -7,8 +7,7 @@ const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config');
-const Language = require('../language');
-const Lang = Language.getString('conventer');
+const ADMIN_DESC = "ADMIN මෙනුව සපයයි..මෙය බොට් අයිතිකරුට පමණක් භාවිතා කළ හැක";
 
 if (Config.WORKTYPE == 'private') {
 
