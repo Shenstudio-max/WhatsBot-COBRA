@@ -1,9 +1,9 @@
 
 {
-    "name": "RAWANA",
-    "description": "RAWANA  - Makes it easy and fun to use Whatsapp.",
+    "name": "COBARA",
+    "description": "COBRA  - Makes it easy and fun to use Whatsapp.",
     "logo": "https://i.hizliresim.com/9tg3x8j.jpg",
-    "keywords": ["whatsapp", "userbot", "rawana", "WhatsAsena", "bot", "api", "ai"],
+    "keywords": ["whatsapp", "userbot", "cobra", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/sisula/alexa",
     "website":   "https://t.me/SisulaR",
     "success_url": "https://t.me/",
