@@ -8,7 +8,7 @@ const {MessageType,Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config');
 const Language = require('../language');
-const Lang = Language.getString('conventer');
+const Lang = Language.getString('admin');
 
 if (Config.WORKTYPE == 'private') {
 
