@@ -24,7 +24,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "*⚔️  𝑅𝒜𝒲𝒜𝒩𝒜  ⚔️*\n*🍁 User Bot 🍁*\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```SISULA WELGAMAGE```\n\n*WhatsApp Group 1 :* --\n\n*WORK TYPE :* private\n\n*Thank You For Using RAWANA♥️*"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "*⚔️  𝓒𝓞𝓑𝓡𝓐  ⚔️*\n*🍁 User Bot 🍁*\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```SISULA WELGAMAGE```\n\n*WhatsApp Group 1 :* --\n\n*WORK TYPE :* private\n\n*Thank You For Using COBRA BOT♥️*"})
 
     }
     else {
@@ -56,7 +56,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "*⚔️  𝑅𝒜𝒲𝒜𝒩𝒜  ⚔️*\n*🍁 User Bot 🍁*\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```SISULA WELGAMAGE```\n\n*WhatsApp Group 1 :* --\n\n*WORK TYPE :* private\n\n*Thank You For Using RAWANA♥️*"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "*⚔️  𝓒𝓞𝓑𝓡𝓐  ⚔️*\n*🍁 User Bot 🍁*\n\n*Version:* ```1.0 Public Stable```\n\n*Branch:* ```master```\n\n*Developer:* ```SISULA WELGAMAGE```\n\n*WhatsApp Group 1 :* --\n\n*WORK TYPE :* private\n\n*Thank You For Using COBRA BOT♥️*"})
 
     }
     else {
