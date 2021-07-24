@@ -45,6 +45,6 @@ https://github.com/yusufusta/WhatsAsena
 # Baileys whatsapp api 
 https://github.com/adiwajshing/Baileys
 
-<h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> ThankYou Using RAWANA <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
+<h1 align="center"><img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"> ThankYou Using KINGCOBRA <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25"></h2>
 
 
