@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
-Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -123,7 +123,7 @@ Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.WP}, (async (mess
 }
 
 if (Config.WORKTYPE == 'public') {
-Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.TET_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
     
