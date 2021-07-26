@@ -16,7 +16,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/naruto?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -33,7 +33,7 @@ if (Config.WORKTYPE == 'private') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -43,7 +43,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -53,7 +53,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -63,7 +63,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/flowertext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -73,7 +73,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/skytext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -83,7 +83,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/flametext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -93,7 +93,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/glowtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -103,7 +103,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/lithgtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -113,7 +113,7 @@ if (Config.WORKTYPE == 'private') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/tfire?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
 }
@@ -126,7 +126,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/naruto?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -143,7 +143,7 @@ if (Config.WORKTYPE == 'public') {
 
     var webimage = await axios.get(`https://api.zeks.xyz/api/wolflogo?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text1=${topText}&text2=${bottomText}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -153,7 +153,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -163,7 +163,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/dropwater?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -173,7 +173,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/flowertext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -183,7 +183,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/skytext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -193,7 +193,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/flametext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -203,7 +203,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/glowtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -213,7 +213,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/lithgtext?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
    
@@ -223,7 +223,7 @@ if (Config.WORKTYPE == 'public') {
   
     var webimage = await axios.get(`https://api.zeks.xyz/api/tfire?apikey=ZKgeixXNpKPOs2Xt7HgUIiBaJ6w&text=${match[1]}`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by WhatsAlexa'})
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: 'Made by 🐍COBRABOT🐍'})
 
     }));
 }
