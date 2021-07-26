@@ -1,35 +1,242 @@
-/* Codded by @phaticusthiccy
-Telegram: t.me/phaticusthiccy
-Instagram: www.instagram.com/kyrie.baran
-*/
-
 const Asena = require('../events');
-const {MessageType,Mimetype} = require('@adiwajshing/baileys');
-const fs = require('fs');
 const Config = require('../config');
+const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const axios = require('axios');
+//language
 const Language = require('../language');
-const Lang = Language.getString('conventer');
-//list
-const EFFECTPP_DESC = "Text effective රූප බවට පරිවර්තනය කිරීම සඳහා විධාන කට්ටලයක්."
+const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
+Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.WP}, (async (message, match) => {
 
-    Asena.addCommand({pattern: 'effectpro$', fromMe: true, desc: Lang.EFFECTPP_DESC}, (async (message, match) => {    
-        if (Config.LANG == 'EN' || Config.LANG == 'HI') {
-            await message.sendMessage('*◁𝓦𝓱𝓪𝓽𝓼𝓒𝓞𝓑𝓡𝓐 𝓵𝓸𝓰𝓸 𝓹𝓪𝓷𝓮𝓵▷*\n\n*🧞‍♀️විධානය* : .zwolf\n*💠example* : ```Whats/Alexa```\n\n*🧞‍♀️විධානය* : .wfire\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .shadow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .smoke\n*💠example* : ```Whatsalexa```\n\n*🌀විධානය* : .dropwater\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .glitch\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .harrypotter\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .beach\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .8bit\n*💠විස්තරය* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .naruto\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .clight\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .marvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .studiomarvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .cloud\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .snow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .blood\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .blackpink\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* :  .battlefield\n*💠example* : ``` Whats/Alexa```\n\n*🧞‍♀️විධානය* :  .wolfmetal\n*💠විස්තරය* : ``` Whats/alexa```\n\n*🧞‍♀️විධානය* : .aov\n*💠example* : ```.aov Whatsalexa```\n\n*🧞‍♀️විධානය* : .csgo\n*💠example* : ```.csgo whatsalexa```\n\n*🧞‍♀️විධානය* : .lolavatar\n*💠example* : ```.lolavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .gavatar\n*💠example* : ```.gavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .neon\n*💠example* : ```.neon whatsalexa```\n\n*🧞‍♀️විධානය* : .galaxyneon\n*💠example* : ```.galaxyneon whatsalexa```\n\n*🧞‍♀️විධානය* : .glue\n*💠example* : ```.glue whatsalexa```\n\n*🧞‍♀️විධානය* : .graved\n*💠විස්තරය* : ```.graved whatsalexa```\n\n*🧞‍♀️විධානය* : .vintage\n*💠example* : ```.vintage whatsalexa```\n\n*🧞‍♀️විධානය* : .metald\n*💠example* : ```.metald whatsalexa```\n\n*🧞‍♀️විධානය* : .sparkling\n*💠විස්තරය* : ```.sparkling whats/alexa```\n\n*🧞‍♀️විධානය* : .flower\n*💠විස්තරය* : ```.flower whatsalexa```\n\n*🌎Developer - SISULAWELGAMAGE*');
-        } else { 
-            await message.sendMessage('*◁𝓦𝓱𝓪𝓽𝓼𝓒𝓞𝓑𝓡𝓐 𝓵𝓸𝓰𝓸 𝓹𝓪𝓷𝓮𝓵▷*\n\n*🧞‍♀️විධානය* : .zwolf\n*💠example* : ```Whats/Alexa```\n\n*🧞‍♀️විධානය* : .wfire\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .shadow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .smoke\n*💠example* : ```Whatsalexa```\n\n*🌀විධානය* : .dropwater\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .glitch\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .harrypotter\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .beach\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .8bit\n*💠විස්තරය* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .naruto\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .clight\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .marvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .studiomarvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .cloud\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .snow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .blood\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .blackpink\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* :  .battlefield\n*💠example* : ``` Whats/Alexa```\n\n*🧞‍♀️විධානය* :  .wolfmetal\n*💠විස්තරය* : ``` Whats/alexa```\n\n*🧞‍♀️විධානය* : .aov\n*💠example* : ```.aov Whatsalexa```\n\n*🧞‍♀️විධානය* : .csgo\n*💠example* : ```.csgo whatsalexa```\n\n*🧞‍♀️විධානය* : .lolavatar\n*💠example* : ```.lolavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .gavatar\n*💠example* : ```.gavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .neon\n*💠example* : ```.neon whatsalexa```\n\n*🧞‍♀️විධානය* : .galaxyneon\n*💠example* : ```.galaxyneon whatsalexa```\n\n*🧞‍♀️විධානය* : .glue\n*💠example* : ```.glue whatsalexa```\n\n*🧞‍♀️විධානය* : .graved\n*💠විස්තරය* : ```.graved whatsalexa```\n\n*🧞‍♀️විධානය* : .vintage\n*💠example* : ```.vintage whatsalexa```\n\n*🧞‍♀️විධානය* : .metald\n*💠example* : ```.metald whatsalexa```\n\n*🧞‍♀️විධානය* : .sparkling\n*💠විස්තරය* : ```.sparkling whats/alexa```\n\n*🧞‍♀️විධානය* : .flower\n*💠විස්තරය* : ```.flower whatsalexa```\n\n*🌎Developer - SISULAWELGAMAGE*');
-        }
-    }));
+    var r_text = new Array ();
+    
+    
+    r_text[0] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[1] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[2] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[3] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[4] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[5] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    
+        
+     var i = Math.floor(6*Math.random())
+
+    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glitch 
+🔹𝙐𝙨𝙚➜ Text සිට Tiktok glitch effect..
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .blackpink 
+🔹𝙐𝙨𝙚➜ එය සපයා ඇති textයේ black pink logo යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .blood 
+🔹𝙐𝙨𝙚➜ එය සපයා ඇති textයේ රුධිර රූපයක් යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .sandwriting 
+🔹𝙐𝙨𝙚➜   එය සපයා ඇති textයේ වැලි රූපයක් යවයි..
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .metald
+🔹𝙐𝙨𝙚➜   ඔබේ නම සමඟ iron logo සෑදීම.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .pornhub
+🔹𝙐𝙨𝙚➜   එය සපයා ඇති text කළු පැහැති තැඹිලි පාට රූපයක් යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .lolavatar 
+🔹𝙐𝙨𝙚➜ ඔබේ නම සමඟ Avatar logo සෑදිය හැකිය.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .gavatar
+🔹𝙐𝙨𝙚➜ .gavatar (.gavatar cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .galaxyneon
+🔹𝙐𝙨𝙚➜ (.galaxyneon cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glue
+🔹𝙐𝙨𝙚➜ (.glue cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .graved
+🔹𝙐𝙨𝙚➜ (.graved cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .vintage
+🔹𝙐𝙨𝙚➜  (.vintage cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .flower
+🔹𝙐𝙨𝙚➜ (.flower cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .zwolf
+🔹𝙐𝙨𝙚➜ (.zwolf king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .zfire 
+🔹𝙐𝙨𝙚➜ (.zwire cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .shadow
+🔹𝙐𝙨𝙚➜ (.shadow cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .smoke
+🔹𝙐𝙨𝙚➜ (.smoke cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .dropwater
+🔹𝙐𝙨𝙚➜ (.dropwater cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .harrypotter 
+🔹𝙐𝙨𝙚➜ (.harrypotter cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .beach
+🔹𝙐𝙨𝙚➜ (.beach cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .8bit
+🔹𝙐𝙨𝙚➜ Text (.8bit king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .naruto
+🔹𝙐𝙨𝙚➜ (.naruto cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .clight
+🔹𝙐𝙨𝙚➜ (.clight cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .marvel
+🔹𝙐𝙨𝙚➜   (.marvel king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .studiomarvel 
+🔹𝙐𝙨𝙚➜   (.studiomarvel king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .cloud 
+🔹𝙐𝙨𝙚➜   (.cloud cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .snow
+🔹𝙐𝙨𝙚➜   .snow cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .battlefield 
+🔹𝙐𝙨𝙚➜  (.battlefield king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .aov
+🔹𝙐𝙨𝙚➜  (.aov cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .csgo
+🔹𝙐𝙨𝙚➜ (.csgo cobra)
+
+*━━━━━🐍COBRA LOGO PACK🐍━━━*
+♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️
+`}) 
+
+ }));
 }
 
 if (Config.WORKTYPE == 'public') {
+Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
-    Asena.addCommand({pattern: 'effectpro$', fromMe: false, desc: Lang.XMEDİA_DESC}, (async (message, match) => {    
-        if (Config.LANG == 'EN' || Config.LANG == 'HI') {
-            await message.sendMessage('*◁𝓦𝓱𝓪𝓽𝓼𝓒𝓞𝓑𝓡𝓐 𝓵𝓸𝓰𝓸 𝓹𝓪𝓷𝓮𝓵▷*\n\n*🧞‍♀️විධානය* : .zwolf\n*💠example* : ```Whats/Alexa```\n\n*🧞‍♀️විධානය* : .wfire\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .shadow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .smoke\n*💠example* : ```Whatsalexa```\n\n*🌀විධානය* : .dropwater\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .glitch\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .harrypotter\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .beach\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .8bit\n*💠විස්තරය* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .naruto\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .clight\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .marvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .studiomarvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .cloud\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .snow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .blood\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .blackpink\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* :  .battlefield\n*💠example* : ``` Whats/Alexa```\n\n*🧞‍♀️විධානය* :  .wolfmetal\n*💠විස්තරය* : ``` Whats/alexa```\n\n*🧞‍♀️විධානය* : .aov\n*💠example* : ```.aov Whatsalexa```\n\n*🧞‍♀️විධානය* : .csgo\n*💠example* : ```.csgo whatsalexa```\n\n*🧞‍♀️විධානය* : .lolavatar\n*💠example* : ```.lolavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .gavatar\n*💠example* : ```.gavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .neon\n*💠example* : ```.neon whatsalexa```\n\n*🧞‍♀️විධානය* : .galaxyneon\n*💠example* : ```.galaxyneon whatsalexa```\n\n*🧞‍♀️විධානය* : .glue\n*💠example* : ```.glue whatsalexa```\n\n*🧞‍♀️විධානය* : .graved\n*💠විස්තරය* : ```.graved whatsalexa```\n\n*🧞‍♀️විධානය* : .vintage\n*💠example* : ```.vintage whatsalexa```\n\n*🧞‍♀️විධානය* : .metald\n*💠example* : ```.metald whatsalexa```\n\n*🧞‍♀️විධානය* : .sparkling\n*💠විස්තරය* : ```.sparkling whats/alexa```\n\n*🧞‍♀️විධානය* : .flower\n*💠විස්තරය* : ```.flower whatsalexa```\n\n*🌎Developer - SISULAWELGAMAGE*');
-        } else { 
-            await message.sendMessage('*◁𝓦𝓱𝓪𝓽𝓼𝓒𝓞𝓑𝓡𝓐 𝓵𝓸𝓰𝓸 𝓹𝓪𝓷𝓮𝓵▷*\n\n*🧞‍♀️විධානය* : .zwolf\n*💠example* : ```Whats/Alexa```\n\n*🧞‍♀️විධානය* : .wfire\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .shadow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .smoke\n*💠example* : ```Whatsalexa```\n\n*🌀විධානය* : .dropwater\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .glitch\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .harrypotter\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .beach\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .8bit\n*💠විස්තරය* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .naruto\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .clight\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .marvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .studiomarvel\n*💠example* : ```Whats/alexa```\n\n*🧞‍♀️විධානය* : .cloud\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .snow\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* : .blood\n*💠example* : ```WhatsAlexa```\n\n*🧞‍♀️විධානය* : .blackpink\n*💠example* : ```Whatsalexa```\n\n*🧞‍♀️විධානය* :  .battlefield\n*💠example* : ``` Whats/Alexa```\n\n*🧞‍♀️විධානය* :  .wolfmetal\n*💠විස්තරය* : ``` Whats/alexa```\n\n*🧞‍♀️විධානය* : .aov\n*💠example* : ```.aov Whatsalexa```\n\n*🧞‍♀️විධානය* : .csgo\n*💠example* : ```.csgo whatsalexa```\n\n*🧞‍♀️විධානය* : .lolavatar\n*💠example* : ```.lolavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .gavatar\n*💠example* : ```.gavatar whatsalexa```\n\n*🧞‍♀️විධානය* : .neon\n*💠example* : ```.neon whatsalexa```\n\n*🧞‍♀️විධානය* : .galaxyneon\n*💠example* : ```.galaxyneon whatsalexa```\n\n*🧞‍♀️විධානය* : .glue\n*💠example* : ```.glue whatsalexa```\n\n*🧞‍♀️විධානය* : .graved\n*💠විස්තරය* : ```.graved whatsalexa```\n\n*🧞‍♀️විධානය* : .vintage\n*💠example* : ```.vintage whatsalexa```\n\n*🧞‍♀️විධානය* : .metald\n*💠example* : ```.metald whatsalexa```\n\n*🧞‍♀️විධානය* : .sparkling\n*💠විස්තරය* : ```.sparkling whats/alexa```\n\n*🧞‍♀️විධානය* : .flower\n*💠විස්තරය* : ```.flower whatsalexa```\n\n*🌎Developer - SISULAWELGAMAGE*');
-        }
-    }));
+    var r_text = new Array ();
+    
+    
+    r_text[0] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[1] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[2] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[3] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[4] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    r_text[5] = "https://telegra.ph/file/7e8d54e8d9afe8314fcd0.jpg";
+    
+        
+     var i = Math.floor(6*Math.random())
+
+    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glitch 
+🔹𝙐𝙨𝙚➜ Text සිට Tiktok glitch effect..
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .blackpink 
+🔹𝙐𝙨𝙚➜ එය සපයා ඇති textයේ black pink logo යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .blood 
+🔹𝙐𝙨𝙚➜ එය සපයා ඇති textයේ රුධිර රූපයක් යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .sandwriting 
+🔹𝙐𝙨𝙚➜   එය සපයා ඇති textයේ වැලි රූපයක් යවයි..
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .metald
+🔹𝙐𝙨𝙚➜   ඔබේ නම සමඟ iron logo සෑදීම.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .pornhub
+🔹𝙐𝙨𝙚➜   එය සපයා ඇති text කළු පැහැති තැඹිලි පාට රූපයක් යවයි.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .lolavatar 
+🔹𝙐𝙨𝙚➜ ඔබේ නම සමඟ Avatar logo සෑදිය හැකිය.
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .gavatar
+🔹𝙐𝙨𝙚➜ .gavatar (.gavatar cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .galaxyneon
+🔹𝙐𝙨𝙚➜ (.galaxyneon cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glue
+🔹𝙐𝙨𝙚➜ (.glue cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .graved
+🔹𝙐𝙨𝙚➜ (.graved cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .vintage
+🔹𝙐𝙨𝙚➜  (.vintage cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .flower
+🔹𝙐𝙨𝙚➜ (.flower cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .zwolf
+🔹𝙐𝙨𝙚➜ (.zwolf king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .zfire 
+🔹𝙐𝙨𝙚➜ (.zwire cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .shadow
+🔹𝙐𝙨𝙚➜ (.shadow cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .smoke
+🔹𝙐𝙨𝙚➜ (.smoke cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .dropwater
+🔹𝙐𝙨𝙚➜ (.dropwater cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .harrypotter 
+🔹𝙐𝙨𝙚➜ (.harrypotter cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .beach
+🔹𝙐𝙨𝙚➜ (.beach cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .8bit
+🔹𝙐𝙨𝙚➜ Text (.8bit king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .naruto
+🔹𝙐𝙨𝙚➜ (.naruto cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .clight
+🔹𝙐𝙨𝙚➜ (.clight cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .marvel
+🔹𝙐𝙨𝙚➜   (.marvel king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .studiomarvel 
+🔹𝙐𝙨𝙚➜   (.studiomarvel king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .cloud 
+🔹𝙐𝙨𝙚➜   (.cloud cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .snow
+🔹𝙐𝙨𝙚➜   .snow cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .battlefield 
+🔹𝙐𝙨𝙚➜  (.battlefield king/cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜*  .aov
+🔹𝙐𝙨𝙚➜  (.aov cobra)
+
+*⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .csgo
+🔹𝙐𝙨𝙚➜ (.csgo cobra)
+
+*━━━━━🐍COBRA LOGO PACK🐍━━━*
+♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️
+`}) 
+
+ }));
 }
+
+  
+    
