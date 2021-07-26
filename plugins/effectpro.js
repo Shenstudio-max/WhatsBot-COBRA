@@ -24,7 +24,7 @@ Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.WP}, (async (mess
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
+    await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
 *⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glitch 
 🔹𝙐𝙨𝙚➜ Text සිට Tiktok glitch effect..
 
@@ -140,7 +140,7 @@ Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.WP}, (async (mes
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
+    await message.sendMessage (Buffer.from (respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*━━━━━🐍COBRA LOGO PACK🐍━━━━━*
 *⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .glitch 
 🔹𝙐𝙨𝙚➜ Text සිට Tiktok glitch effect..
 
