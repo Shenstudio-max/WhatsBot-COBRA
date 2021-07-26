@@ -17,13 +17,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *WhatsAlexa*:  ```" + msg + "```"
+    return "✅ *COBRABOT*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *WhatsAlexa*:  ```" + msg + "```"
+    return "🛑 *COBRABOT*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *WhatsAlexa*:  ```" + msg + "```"
+    return "⏺️ *COBRABOT*:  ```" + msg + "```"
 }
 
 
