@@ -164,7 +164,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Europe/Lisbon' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
@@ -178,7 +178,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
@@ -192,7 +192,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Europe/Berlin' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
@@ -206,7 +206,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'America/Noronha' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
@@ -220,7 +220,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Europe/Madrid' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
@@ -248,7 +248,7 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Samarkand' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n'config.AUTOBIO_MSG'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n'config.AUTOBIO_MSG'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
