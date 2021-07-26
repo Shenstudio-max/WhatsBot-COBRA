@@ -66,7 +66,7 @@ Licensed under the  GPL-3.0 License;
 
 		    const profileBuffer = await axios.get(result, {responseType: 'arraybuffer'})
 
-	      await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {caption: "WhatsAlexa 2021"})}
+	      await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {caption: "🐍COBRABOT🐍 2021"})}
 		  )
     })); // FB Downloader added a76bYKT5652xyaKJ
 
@@ -151,7 +151,7 @@ else if (cn.WORKTYPE == 'public') {
 
 		    const profileBuffer = await axios.get(result, {responseType: 'arraybuffer'})
 
-	      await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {caption: "WhatsAlexa 2021"})}
+	      await message.sendMessage(Buffer.from(profileBuffer.data), MessageType.video, {quoted: message.data}, {caption: "🐍COBRABOT🐍 2021"})}
 		  )
     })); // FB Downloader added a76bYKT5652xyaKJ
 
