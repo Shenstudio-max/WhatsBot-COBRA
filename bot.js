@@ -305,7 +305,7 @@ async function whatsAsena () {
         }
     })    
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Alexa')}
+        console.log(`${chalk.green.bold('cobra')}${chalk.blue.bold('bot')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙමින් ... කරුණාකර රැඳී සිටින්න.')}`);
@@ -350,7 +350,7 @@ ${chalk.blue.italic('ℹ️ WhatsApp වෙත සම්බන්ධ වෙම�
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('👻 WhatsAlexa' + afwhasena));
+        console.log(chalk.bgGreen('🐍COBRABOT' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
         let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAlexa Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAlexa Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*WhatsAsena Working as a Chatbot! 🐺*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.fulleva off* _command to return to normal mode._\n\n*Thanks For Using WhatsAsena 💌*\n    *- Eva*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
