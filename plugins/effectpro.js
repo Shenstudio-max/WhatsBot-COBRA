@@ -116,7 +116,7 @@ Asena.addCommand({pattern: 'prologo', fromMe: true, desc: Lang.TET_DESC}, (async
 🔹𝙐𝙨𝙚➜ (.csgo cobra)
 
 *━━━━━🐍COBRA LOGO PACK🐍━━━*
-♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️
+_*🌍ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱɪꜱᴜʟᴀ ᴡᴇʟɢᴀᴍᴀɢᴇ*_
 `}) 
 
  }));
@@ -232,7 +232,7 @@ Asena.addCommand({pattern: 'prologo', fromMe: false, desc: Lang.TET_DESC}, (asyn
 🔹𝙐𝙨𝙚➜ (.csgo cobra)
 
 *━━━━━🐍COBRA LOGO PACK🐍━━━*
-♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️♣️
+_*🌍ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱɪꜱᴜʟᴀ ᴡᴇʟɢᴀᴍᴀɢᴇ*_
 `}) 
 
  }));
