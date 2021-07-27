@@ -236,12 +236,12 @@
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
-            "PL_DESC": "Displays metadata data of group or person.",
-            "SUB": "*Group Name:* ",
-            "DES": "*Group Description:* ",
-            "OWN": "*Founder:* ",
-            "COD": "*Unique Group Code:* ",
-            "JİD": "*Person JID:* ",
+            "PL_DESC": "කණ්ඩායමේ හෝ පුද්ගලයාගේ පාර-දත්ත දත්ත පෙන්වයි.",
+            "SUB": "*💠කණ්ඩායමේ නම:* ",
+            "DES": "*💠කණ්ඩායම් විස්තරය:* ",
+            "OWN": "*⚜️කණ්ඩායම් අයිතිය:* ",
+            "COD": "*🆔කණ්ඩායමේ කේතය:* ",
+            "JİD": "*💭කණ්ඩායමේ JID අංකය:* ",
             "ST": "*Person Status:* "
         },
         "log": {
