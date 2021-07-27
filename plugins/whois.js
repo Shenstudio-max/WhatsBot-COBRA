@@ -136,7 +136,6 @@ else if (CON.WORKTYPE == 'public') {
             var ruus = ' ' + ru_user.length + '\n'
             var usaus = ' ' + usa_user.length + '\n'
             var oth = user_count - trus - hius - azus - srius - ruus - usaus
-            const user_count_msg = ADMİN_USER + admin_count + USER_USER + user_count + TR_USER + trus + Hİ_USER + hius + AZ_USER + azus + SRİ_USER + srius + RU_USER + ruus + USA_USER + usaus + OTHER + ' ' + oth + '\n'
             const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + user_count_msg + Lang.DES + `\n\n${nwjson.desc}`
             var ppUrl = await message.client.getProfilePicture(message.jid) 
             const resim = await Axios.get(ppUrl, {responseType: 'arraybuffer'})
