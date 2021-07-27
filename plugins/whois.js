@@ -20,7 +20,7 @@ if (CON.WORKTYPE == 'private') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
@@ -57,7 +57,7 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
@@ -91,7 +91,7 @@ else if (CON.WORKTYPE == 'public') {
 
             var nwjson = await message.client.groupMetadata(message.jid) 
 
-            const msg = `*Grup ID:* ${json.id} \n` + Lang.SUB + `${nwjson.subject} \n` + Lang.OWN + `${json.owner} \n` + Lang.COD + `${code} \n` + Lang.DES + `\n\n${nwjson.desc}`
+            const msg =  Lang.SUB + `${nwjson.subject} \n\n`  + `*Grup ID:* ${json.id} \n\n` + Lang.OWN + `${json.owner} \n\n` + Lang.COD + `${code} \n\n` + Lang.DES + `\n\n${nwjson.desc}`
 
             var ppUrl = await message.client.getProfilePicture(message.jid) 
 
