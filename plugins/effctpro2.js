@@ -7,7 +7,7 @@ const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
 if (Config.WORKTYPE == 'private') {
-Asena.addCommand({pattern: 'logop2', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'logopro', fromMe: true, desc: Lang.TET_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -84,7 +84,7 @@ _*🌍ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱɪꜱᴜʟᴀ ᴡᴇʟɢᴀᴍᴀɢᴇ*_
 }
 
 if (Config.WORKTYPE == 'public') {
-Asena.addCommand({pattern: 'logop2', fromMe: false, desc: Lang.TET_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'logopro', fromMe: false, desc: Lang.TET_DESC}, (async (message, match) => {
 
     var r_text = new Array ();
     
