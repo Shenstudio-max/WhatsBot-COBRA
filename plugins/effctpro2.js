@@ -76,7 +76,7 @@ Asena.addCommand({pattern: 'logopro', fromMe: true, desc: Lang.TET_DESC}, (async
 *⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .sumsand
 🔹𝙐𝙨𝙚➜ (.sumsand cobra)
 
-*━━━━━🐍COBRA LOGO PACK🐍━━━*
+*━━━━━LOGO PACK━━━*
 _*🌍ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱɪꜱᴜʟᴀ ᴡᴇʟɢᴀᴍᴀɢᴇ*_
 `}) 
 
@@ -153,7 +153,7 @@ Asena.addCommand({pattern: 'logopro', fromMe: false, desc: Lang.TET_DESC}, (asyn
 *⚜️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜* .sumsand
 🔹𝙐𝙨𝙚➜ (.sumsand cobra)
 
-*━━━━━🐍COBRA LOGO PACK🐍━━━*
+*━━━━━LOGO PACK━━━*
 _*🌍ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱɪꜱᴜʟᴀ ᴡᴇʟɢᴀᴍᴀɢᴇ*_
 `}) 
 
